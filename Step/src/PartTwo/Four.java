@@ -17,9 +17,9 @@ public class Four {
 		String input =br.readLine();
 		int n=Integer.parseInt(input);
 		
-		int m=fact(n);
 		
-		System.out.println(m);
+		
+		System.out.println(fact(n));
 				
 		}
 
