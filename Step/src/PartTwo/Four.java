@@ -12,14 +12,14 @@ public class Four {
 	}
 
 	public static void main(String[] args) throws IOException {
-		System.out.println("input num:");
-		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-		String input =br.readLine();
-		int n=Integer.parseInt(input);
+//		System.out.println("input num:");
+//		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+//		String input =br.readLine();
+//		int n=Integer.parseInt(input);
 		
+		int n = fact(4);
 		
-		
-		System.out.println(fact(n));
+		System.out.println(n);
 				
 		}
 
