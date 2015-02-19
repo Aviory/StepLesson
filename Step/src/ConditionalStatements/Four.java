@@ -8,7 +8,7 @@ public class Four {
 	}
 
 	public static void main(String[] args) {
-		int v = total(4, 5, -1);
+		int v = total(2, -1, 0);
 		
 		
 		System.out.println(v);
