@@ -16,8 +16,8 @@ public class OneTest {
 		assertEquals(0, 0);
 	}
 	public void test12() {
-		String c=Two.f11(1,5);
-		assertEquals(2, 2);
+		int c=Two.f11(1,5);
+		assertEquals(2, c);
 	}
 
 	
