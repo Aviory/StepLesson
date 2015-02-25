@@ -15,15 +15,16 @@ public class Ran6 {
 		int a =generate.nextInt((x-n)+1)+n;
 		return a;
 	}
-	private void print(int a, int b){
+	private static int[] print(int a, int b){
 		for (int i=0;i<array.length;i++){
-			array[i] = ran(min, max);
+			array[i] = ran(a, b);
 		}
+		return array;
 		
 	}
 	public static void main(String[] args) {
-		print()
-		for (int i=1;i<print.length;i++){
+		int [] myArray = print(min, max);
+		for (int i=1;i<myArray.length;i++){
 			System.out.print(array[i]+" ");
 		}
 
