@@ -6,7 +6,7 @@ import java.io.InputStreamReader;
 
 public class Four {
 	
-	private static int fact(int n){
+	public static int fact(int n){
 		return n<2?1:n*fact(n-1);
 		
 	}
@@ -17,7 +17,7 @@ public class Four {
 //		String input =br.readLine();
 //		int n=Integer.parseInt(input);
 		
-		int n = fact(4);
+		int n = fact(3);
 		
 		System.out.println(n);
 				

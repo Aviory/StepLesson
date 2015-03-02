@@ -6,25 +6,36 @@ public class One {
 
 
 	public static void main(String[] args) {
-		
-		
+
+
 		int [] mas= new int [99];
-		int sum=0,Col = 0;
-		Random r = new Random();
+		int [] a=as(mas);
 		
-		for (int i=0;i<mas.length;i++){
-		mas[i]=r.nextInt(99);
-		//System.out.print(mas[i]+" ");
+	}
+	public static int[] as(int[] mas)
+	{
+		int sum=0;
+		int Col = 0;
+		
+
+		for (int i=0;i<mas.length;i++)
+		{
+			mas[i]=i;
+			
 		}
-		
-		for (int j=0;j<mas.length;j++){
+
+		for (int j=0;j<mas.length;j++)
+		{
 			if (mas[j]%2==0){
 				sum = sum + mas[j];
 				Col++;
 			}
 		}
-		System.out.println("Sum: "+sum +"\n" + "amoung: "+Col);
-
+		int []a={sum, Col};
+		return a;
 	}
+	
 
 }
+
+
